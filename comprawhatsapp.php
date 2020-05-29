@@ -57,6 +57,10 @@ function compraWhatsAppButtonAfterAddToCart()
 	require_once __DIR__ . '/includes/public.php';
 }
 if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
+   // Página do produto
    add_action( 'woocommerce_single_product_summary', 'compraWhatsAppButtonAfterAddToCart', 40 );
+   
+   // Grid de produtos
+   add_action('woocommerce_after_shop_loop_item','compraWhatsAppButtonAfterAddToCart', 10);
 }
 // Add WA Button after add to cart button end
