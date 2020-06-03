@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.div_woowap_btn {
+    margin: 20px 0px;
+ }
+
+.div_woowap_btn .woowap_btn {
+	padding: 12px 30px;
+	background: #25d366;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 16px;
+	position: relative;
+	display: inline-flex;
+	width: auto;
+	transition: all .3s !important;
+	align-items: center;
+	box-shadow: 0 2px 2px 0px rgba(45, 62, 79, .3) !important;		text-decoration: none;
+}
+
+.woowap_btn:hover {
+	color: #ffffff !important;
+	background: #21bd5b;
+	transform: translateY(-3px);
+	box-shadow: 0 8px 25px -5px rgba(45, 62, 79, .3) !important;
+}
+
+#svg_wapp_woowap {
+	margin-right: 10px !important;
+}

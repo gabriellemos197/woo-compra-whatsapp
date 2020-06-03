@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.section_wow {
+	font-size: 20px;
+}
+
+.woowapp_input {
+	height: 40px !important;
+	width: 400px;
+	padding-left: 8px;
+}
+
+.woowapp_input_areatext {
+	width: 400px;
+	padding-left: 8px;
+}
+
+.wowapp-settings-form-page:not(.wowapp-active) {
+	display: none;
+}
+
+#notice-wowpro {
+	color: red;
+	font-size: 13px;
+}
+
+.woowapp_p_desc {
+	font-size: 14px;
+}
