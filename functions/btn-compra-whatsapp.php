@@ -114,11 +114,8 @@ class Woowap_add_button_plugin {
 
 	if ($product->is_type( 'variable' )) {
 		$txt_final = ''.$encode_message.'%0D%0A%0D%0A'.$this->woowap_get_product_name().'%0D%0A'.$this->woowap_get_product_price().'%0D%0A'.$this->woowap_get_product_link().'';
-		if ( wp_is_mobile() ) {
 		$link_btn = 'https://wa.me/'.$phone.'?text='.$txt_final.'';
-		} else {
-		   $link_btn = 'https://web.whatsapp.com/send?phone='.$phone.'?text='.$txt_final.''; 
-		}
+		
 		return '<div class="div_woowap_btn">
 				<form id="woapp-fields">
 				<input type="hidden" id="woapp_number" value="'.$phone.'"></input>
@@ -132,11 +129,8 @@ class Woowap_add_button_plugin {
 	}
 	else {
 		$txt_final = ''.$encode_message.'%0D%0A%0D%0A'.$this->woowap_get_product_name().'%0D%0A'.$this->woowap_get_product_price().'%0D%0A'.$this->woowap_get_product_link().'';
-		if ( wp_is_mobile() ) {
 		$link_btn = 'https://wa.me/'.$phone.'?text='.$txt_final.'';
-		} else {
-		   $link_btn = 'https://web.whatsapp.com/send?phone='.$phone.'?text='.$txt_final.''; 
-		}
+		
 		return '<div class="div_woowap_btn"><a href='.$link_btn.' class="woowap_btn" id="woowap_btn" role="button" target="'.$target.'">'.$this->icon.' '.$btn_txt.'</a></div>';
 	}
 }
