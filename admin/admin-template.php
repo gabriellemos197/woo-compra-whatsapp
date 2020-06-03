@@ -189,7 +189,7 @@ function woowap_create_admin_page(){
                 </tr>
             </tbody>
             </table>
-            <p class="woowapp_p_desc"><b>Nota: </b>Se você deseja garantir que seus botões sejam rastreados na sua conta do Google Analytics:<br>1. Vá para sua conta do Google Analytics > Clique em Tempo Real > Eventos.<br>2. bra seu site em outra guia e clique em um botão Woo Comprar por WhatsApp.<br>3. Verifique se o clique é rastreado na página Eventos do Google Analytics.</p>
+            <p class="woowapp_p_desc"><b>Nota: </b>Se você deseja garantir que seus botões sejam rastreados na sua conta do Google Analytics:<br>1. Vá para sua conta do Google Analytics > Clique em Tempo Real > Eventos.<br>2. Abra seu site em outra guia e clique em um botão Woo Comprar por WhatsApp.<br>3. Verifique se o clique é rastreado na página Eventos do Google Analytics.</p>
         </div>
         <br><button type="submit" name="submit_dados_update" id="submit_woowapp" class="button button-primary">Salvar mudanças</button>
     </form>
